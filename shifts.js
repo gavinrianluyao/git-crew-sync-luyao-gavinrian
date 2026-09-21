@@ -9,6 +9,9 @@ function calculatePay(hours, rate) {
     const overtimePay = reg + (overtime * rate * 1.5);
     return Math.floor(overtimePay);
   }
+
+  //random comment
+
   return Math.floor(hours * rate);
 }
 
